@@ -19,3 +19,6 @@ namespaces
 - [ ] https://www.schutzwerk.com/en/blog/linux-container-namespaces01-intro/
 - [ ] https://www.schutzwerk.com/en/blog/linux-container-namespaces02-mnt/
 - [ ] https://www.schutzwerk.com/en/blog/linux-container-capabilities
+
+
+https://blog.because-security.com/t/docker-the-universal-build-system-for-system-and-security-development-wiki/382
