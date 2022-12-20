@@ -1,3 +1,4 @@
+## introduction
 containers are an abstraction over serveral different linux technologies,
 think of containers as a particular way of combining those linux primitives together
 
@@ -225,6 +226,38 @@ let's see an example
 echo 2 | sudo tee /sys/fs/cgroup/pids/lfnw/pids.max
 ```
 
+now try to cat the file again
+```bash
+$(cat /sys/fs/cgroup/pids/lfnw/tasks 1>&2)
+```
+
+
+
+
 
 ### How Docker uses Cgroup?
+we're going to run a container with a cpu resource control
+```bash
+ 
+
+
+```
+
+
+## Namespaces
+
+### Mount Namespaces
+```bash
+mount
+
+output:
+
+```
+### Procfs virtual filesytesm
+```bash
+readlink /proc/$$/ns/*
+
+
+output:
+```
 
