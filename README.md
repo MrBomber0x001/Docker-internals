@@ -1,7 +1,24 @@
 
 ![Docker Int](https://user-images.githubusercontent.com/42917814/210157620-b58e91be-ca3c-4797-85c1-fff863152720.png)
 
+
+## Why ? 
+
+I've created this repo mainly for whom want to dig into the internals of Docker with a practical walkthrough of creating containers at low level by leveraging linux kernel features.
+
+
 ## resources
+The resources I've gathered are divided into main categories [Books, articles and videos]
+
+### Books
+
+
+### Courses
+
+
+### Articles and Demos
+
+## Contributions
 
 cgroups
 -----
