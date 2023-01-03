@@ -41,7 +41,7 @@ namespaces
 Docker under the hood
 ------
 
-- [ ] <https://www.youtube.com/watch?v=-YnMr1lj4Z8>
+- <a href="https://www.youtube.com/watch?v=-YnMr1lj4Z8">Intro to Namespaces</a>
 
 * [How to use chroot - howtogeek](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux) \[done\]
 
@@ -61,4 +61,4 @@ Docker under the hood
 
 - [write Docker container using Golang](https://www.youtube.com/watch?v=-NzfOhSAZpA&list=LL&index=4)
 
-<https://blog.because-security.com/t/docker-the-universal-build-system-for-system-and-security-development-wiki/382>
+- https://blog.because-security.com/t/docker-the-universal-build-system-for-system-and-security-development-wiki/382>
