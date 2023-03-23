@@ -1,4 +1,4 @@
-<h1 align="center">Docker Internals (🏗 under construction yet)</h1>
+<h1 align="center">Docker Internals (🏗 under construction....)</h1>
 
 ![Docker Int](https://user-images.githubusercontent.com/42917814/210157620-b58e91be-ca3c-4797-85c1-fff863152720.png)
 
