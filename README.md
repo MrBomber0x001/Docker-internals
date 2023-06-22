@@ -6,10 +6,11 @@
 
 ## Why ? 
 
-I've created this repo mainly for whom want to dig into the internals of Docker with a practical walkthrough of creating containers at low level by leveraging Linux kernel features.
-
+This repository is a collection of articles, books, and blog posts related to the internals of Docker, as well as personal notes and insights on the topic. 
+Whether you're new to Docker or a seasoned user, this repository aims to provide you with valuable resources to help you understand and use Docker more effectively and most importantly writing your own lite version of Docker 😀.
 
 ## resources
+
 The resources I've gathered are divided into main categories [Books, articles and videos]
 
 ### Books
