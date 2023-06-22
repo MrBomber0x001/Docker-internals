@@ -1,3 +1,4 @@
+
 <h1 align="center">Docker Internals (🏗 under construction....)</h1>
 
 ![Docker Int](https://user-images.githubusercontent.com/42917814/210157620-b58e91be-ca3c-4797-85c1-fff863152720.png)
@@ -5,14 +6,15 @@
 
 ## Why ? 
 
-I've created this repo mainly for whom want to dig into the internals of Docker with a practical walkthrough of creating containers at low level by leveraging linux kernel features.
+I've created this repo mainly for whom want to dig into the internals of Docker with a practical walkthrough of creating containers at low level by leveraging Linux kernel features.
 
 
 ## resources
 The resources I've gathered are divided into main categories [Books, articles and videos]
 
 ### Books
-
+- Docker in Action, Manning[^1]
+- Container Security, Liz Rice, Manning[^2]
 
 ### Courses
 
@@ -23,43 +25,36 @@ The resources I've gathered are divided into main categories [Books, articles an
 
 cgroups
 -----
-
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-cgroups-01-intro/>
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-cgroups-02-network-block-io/>
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-cgroups-03-memory-cpu-freezer-dev/>
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-cgroups-04-groups-kernel/>
+There's a series of 4 main articles cover **Cgroups** in details.
+1.  <a href="https://www.schutzwerk.com/en/blog/linux-container-cgroups-01-intro">Part1: Intro</a>
+2. <a href="https://www.schutzwerk.com/en/blog/linux-container-cgroups-02-network-block-io">Part 2: Network Block I/O</a>
+3. <a href="https://www.schutzwerk.com/en/blog/linux-container-cgroups-03-memory-cpu-freezer-dev">Part 3: Memory and CPU</a>
+4. <a href="https://www.schutzwerk.com/en/blog/linux-container-cgroups-04-groups-kernel">Part 4: Kernel Cgroups</a>
 
 namespaces
 -----
+From the same resource as above, a series covering `namespaces` in details
 
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-namespaces04-user/>
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-namespaces03-pid-net/>
+1. <a href="https://www.schutzwerk.com/en/blog/linux-container-namespaces01-intro">Part 1: Intro</a>
+3. <a href="https://www.schutzwerk.com/en/blog/linux-container-namespaces02-mnt">Part 2: Mount Namespaces</a>
+4. <a href="https://www.schutzwerk.com/en/blog/linux-container-namespaces03-pid-net">Part 3: PID namespaces</a>
+5. <a href="https://www.schutzwerk.com/en/blog/linux-container-namespaces04-user">Part 4: User Namespaces</a>
+6. <a href="https://www.schutzwerk.com/en/blog/linux-container-capabilities">Capabilites</a>
 
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-namespaces01-intro/>
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-namespaces02-mnt/>
-- [ ] <https://www.schutzwerk.com/en/blog/linux-container-capabilities>
-
-Docker under the hood
+Resources to Dig Further
 ------
 
 - [ ] <a href="https://www.youtube.com/watch?v=-YnMr1lj4Z8">Intro to Namespaces</a>
-
 - [ ] [How to use chroot - howtogeek](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux) \[done\]
-
 - [ ] [Bocker - A simple docker implemented in 100 lines of code](https://github.com/p8952/bocker/blob/master/bocker) \[will not\]
-
 - [ ] [Resource Management using cgroups - Red Hat](https://access.redhat.com/documentation/enus/red_hat_enterprise_linux/6/html/resource_management_guide/ch01) \[will not\]
-
 - [ ] [What are namespace, cgroups in linux kernerl - Nginx blog](https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/) \[Done\]
-
 - [ ] [How Docker works - LiveOverflow](https://www.youtube.com/watch?v=-YnMr1lj4Z8) \[Not done\]
-
 - [ ] [What are containers made of - Docke conference](https://www.youtube.com/watch?v=sK5i-N34im8)
-
 - [ ] [http://docker-saigon.github.io/post/Docker-Internals](http://docker-saigon.github.io/post/Docker-Internals) \[not done\]
-
 - [ ] [Linux Container Primitives: cgroups, namespaces, and more!](https://www.youtube.com/watch?v=x1npPrzyKfs&list=LL&index=2&t=1586s) \[not done\]
-
 - [ ] [write Docker container using Golang](https://www.youtube.com/watch?v=-NzfOhSAZpA&list=LL&index=4)
-
 - [ ] https://blog.because-security.com/t/docker-the-universal-build-system-for-system-and-security-development-wiki/382>
+
+[^1]: https://www.manning.com/books/docker-in-action-second-edition covers advanced topics of Docker
+[^2]: https://www.oreilly.com/library/view/container-security/9781492056690/ which covers most of the internals in details.
