@@ -15,7 +15,8 @@ The resources I've gathered are divided into main categories [Books, articles an
 
 ### Books
 - Docker in Action, Manning[^1]
-- Container Security, Liz Rice, Manning[^2]
+- Container Security, Liz Rice, o'reilly[^2]
+- Learning modern Linux, o'reilly[^3]
 
 Articles and Demos
 ---
@@ -55,3 +56,4 @@ Resources to Dig Further
 
 [^1]: https://www.manning.com/books/docker-in-action-second-edition covers advanced topics of Docker
 [^2]: https://www.oreilly.com/library/view/container-security/9781492056690/ which covers most of the internals in details.
+[^3]: https://www.oreilly.com/library/view/learning-modern-linux/9781098108939/
