@@ -53,6 +53,7 @@ Resources to Dig Further
 - [Linux Container Primitives: cgroups, namespaces, and more!](https://www.youtube.com/watch?v=x1npPrzyKfs&list=LL&index=2&t=1586s) \[not done\]
 - [write Docker container using Golang](https://www.youtube.com/watch?v=-NzfOhSAZpA&list=LL&index=4)
 - [Docker Internals](https://blog.because-security.com/t/docker-the-universal-build-system-for-system-and-security-development-wiki)
+- [Docker Technology](https://www.codementor.io/blog/docker-technology-5x1kilcbow)
 
 [^1]: https://www.manning.com/books/docker-in-action-second-edition covers advanced topics of Docker
 [^2]: https://www.oreilly.com/library/view/container-security/9781492056690/ which covers most of the internals in details.
